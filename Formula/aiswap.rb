@@ -1,28 +1,28 @@
 class Aiswap < Formula
   desc "Zero-proxy local account switcher, quota monitor, and TUI for Claude Code, Codex CLI, and Antigravity"
   homepage "https://github.com/haimingx/aiswap"
-  version "1.0.9"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/haimingx/aiswap/releases/download/v1.0.9/aiswap-v1.0.9-darwin-arm64.tar.gz"
-      sha256 "536b4f93ae78f07c1f57457a4e836b649197f3077c61170430f709626333a022"
+      url "https://github.com/haimingx/aiswap/releases/download/v1.1.0/aiswap-v1.1.0-darwin-arm64.tar.gz"
+      sha256 "33f8bc1d86d2d22af304fd4ab4b034e1969e8e8750eb0267e585135763ea8e67"
     end
     on_intel do
-      url "https://github.com/haimingx/aiswap/releases/download/v1.0.9/aiswap-v1.0.9-darwin-amd64.tar.gz"
-      sha256 "df296b900a08901458dc1c73c127623b820dd6b9cd0947ac7fa1e7772d10c6d8"
+      url "https://github.com/haimingx/aiswap/releases/download/v1.1.0/aiswap-v1.1.0-darwin-amd64.tar.gz"
+      sha256 "fd0e7f43a300773d36657fb82df9a5f750591dd2922b0e511ac9f8912625280f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/haimingx/aiswap/releases/download/v1.0.9/aiswap-v1.0.9-linux-arm64.tar.gz"
-      sha256 "753901cac34adb0b2ee6158ba1cff0a5a90239369a6733660dd04d40791f1c94"
+      url "https://github.com/haimingx/aiswap/releases/download/v1.1.0/aiswap-v1.1.0-linux-arm64.tar.gz"
+      sha256 "61352905a17ccbcbd519d0b5bf34898f39eb9f0bba96f6228e71fd893a1f1c04"
     end
     on_intel do
-      url "https://github.com/haimingx/aiswap/releases/download/v1.0.9/aiswap-v1.0.9-linux-amd64.tar.gz"
-      sha256 "e8ff5d9279923a1ab88965cf247b896d78a63024174db11e73de85c2355c8c3c"
+      url "https://github.com/haimingx/aiswap/releases/download/v1.1.0/aiswap-v1.1.0-linux-amd64.tar.gz"
+      sha256 "716d768e5b27a4adc08aa9e82209fb0aa48e94a112c3a8086467e6c68619aab6"
     end
   end
 
